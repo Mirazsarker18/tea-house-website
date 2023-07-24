@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House Website</title>
+    <!-- font awesome icon link  -->
+    <link rel="stylesheet" href="all.min.css">
     <!-- Website Favicon -->
     <link rel="shortcut icon" href="assets/images/tea-favicon.png" type="image/x-icon">
     <!-- Tailwind css and Daisy UI link -->
@@ -59,6 +61,7 @@
 <body>
     <!-- Header section start -->
     <header>
+        <!-- menu section start -->
         <nav class="bg-[#FFEDE9]">
             <div class=" max-w-screen-xl mx-auto">
                 <div class="navbar">
@@ -107,6 +110,36 @@
 
             </div>
         </nav>
+        <!-- menu section end -->
+        <!-- Hero section start -->
+        <section>
+            <div class="section-row">
+                <div class="hero min-h-[calc(110vh-76px)]">
+                    <div class="hero-content flex-col lg:flex-row-reverse">
+                      <div class="banner-img-col">
+                        <img src="assets/images/banner.png" alt="Banner image" class=" relative" />
+                        <div class="banner-bage-col flex items-center gap-3 p-5 w-60 bg-white drop-shadow-lg rounded-xl absolute bottom-14 right-[445px]">
+                            <div class="bage-icon-col rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />      
+                            </div>
+                            <div class="bage-text-col">
+                                <h3 class="text-3xl font-semibold">5.00</h3>
+                                <p class="text-sm">Trust Pilot Ratings</p>
+                            </div>
+                          </div>
+                      </div>
+                     
+                      <div>
+                        <h1 class="text-4xl md:text-5xl lg:text-7xl leading-10 font-bold">It's good <br>
+                            tea time at The <br> Tea House</h1>
+                        <p class="py-6 w-2/3">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                        <button class="btn-web-primary">Explore More<i class="fa-solid fa-arrow-right-long -rotate-45 ml-3"></i></button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- Hero section end -->
     </header>
     <!-- Header section end -->
     <!-- Main section start -->
