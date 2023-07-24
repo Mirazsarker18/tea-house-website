@@ -32,6 +32,26 @@
     .manrope-font{
         font-family: 'Manrope', sans-serif;
     }
+    .btn-nav-menu{
+        padding: 10px 23px;
+        outline: none;
+        font-size: 1rem;
+        color: #fff;
+        background: linear-gradient(270deg, #F00 0%, #FF8938 100%);
+        border-radius: 10px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .btn-web-primary{
+        padding: 18px 30px;
+        outline: none;
+        font-size: 1.3rem;
+        color: #fff;
+        background: linear-gradient(270deg, #F00 0%, #FF8938 100%);
+        border-radius: 10px;
+        font-weight: 700;
+        cursor: pointer;
+    }
 </style>
 <!-- Style css end -->
 
@@ -39,8 +59,51 @@
 <body>
     <!-- Header section start -->
     <header>
-        <nav>
-            <div class="container">
+        <nav class="bg-[#FFEDE9]">
+            <div class=" max-w-screen-xl mx-auto">
+                <div class="navbar">
+                    <div class="navbar-start">
+                      <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </label>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                          <li><a>Home</a></li>
+                          <li>
+                            <a>Products</a>
+                            <ul class="p-2">
+                                <li><a>Milk Tea</a></li>
+                                <li><a>Black Tea</a></li>
+                                <li><a>Lemon Tea</a></li>
+                                <li><a>Green Tea</a></li>
+                            </ul>
+                          </li>
+                          <li><a>Contact Us</a></li>
+                        </ul>
+                      </div>
+                      <a class=""><img class="w-44" src="assets/images/tea-logo.png" alt="Website Tea logo"></a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-lg">Home</a></li>
+                        <li tabindex="0">
+                          <details>
+                            <summary class="text-lg">Products</summary>
+                            <ul class="p-2">
+                              <li><a class="text-lg">Milk Tea</a></li>
+                              <li><a class="text-lg">Black Tea</a></li>
+                              <li><a class="text-lg">Lemon Tea</a></li>
+                              <li><a class="text-lg">Green Tea</a></li>
+                            </ul>
+                          </details>
+                        </li>
+                        <li><a class="text-lg">Contact Us</a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-end">
+                      <a class="btn-nav-menu">Buy Now</a>
+                    </div>
+                  </div>
 
             </div>
         </nav>
