@@ -31,6 +31,7 @@
 <!-- Tailwind customize end -->
 <!-- Style css start -->
 <style>
+
     .manrope-font{
         font-family: 'Manrope', sans-serif;
     }
@@ -44,12 +45,25 @@
         font-weight: 700;
         cursor: pointer;
     }
+    .bg-gradient-color{
+        background: linear-gradient(270deg, #F00 0%, #FF8938 100%);
+    }
     .btn-web-primary{
         padding: 15px 25px;
         outline: none;
         font-size: 1rem;
         color: #fff;
         background: linear-gradient(270deg, #F00 0%, #FF8938 100%);
+        border-radius: 10px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .btn-web-primary-white{
+        padding: 15px 25px;
+        outline: none;
+        font-size: 1rem;
+        color: #F00;
+        background: #fff;
         border-radius: 10px;
         font-weight: 700;
         cursor: pointer;
@@ -248,7 +262,58 @@
             </div>
         </section>
         <!-- Great Tea, Freshly Presented section end -->
-        
+        <!-- Meet Our Super Clients section start -->
+        <section class="">
+            <div class="meet-container max-w-screen-xl mx-auto bg-gradient-color rounded-xl px-16 py-20">
+                <div class="meet-container-row flex flex-col lg:flex-row gap-12 ">
+                    <div class="meet-container-text-col flex items-center">
+                        <div class="meet-text-col space-y-4">
+                            <h2 class="text-5xl font-extrabold w-2/3  text-white">Meet Our Super Clients</h2>
+                        <p class=" w-2/3 text-base font-medium leading-7  text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                        <button class=" btn-web-primary-white ">Show All</button>
+                        </div>
+                    </div>
+                    <!-- Clients review container-->
+                        <div class="meet-container-card-col relative">
+                            <!-- Clients next review  -->
+                            <div class="card-one relative z-10 mb-16 opacity-40 p-10 rounded-lg bg-white">
+                                    <img class="card-img absolute -left-5 -top-5 border-4 rounded-full border-white bg-white" src="assets/images/client.png" alt="Clients image">
+                                <p class=" text-base leading-7">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                                <h4 class="text-base font-bold mt-10">Ilham Yuda</h4>
+                                <p class="text-base font-medium">Businessman</p>
+                                <div class="car-circels-img flex justify-end">
+                                    <img src="assets/images/circles.png" alt="circels image">
+                                </div>
+                            </div>
+                            <!-- Clients current review  -->
+                            <div class="card-one absolute z-20 top-40 lg:-left-24 lg:w-[430px] p-10 rounded-lg bg-white">
+                                <div class="card-img absolute -left-6 -top-5 border-4 rounded-full border-white bg-white">
+                                    <img  src="assets/images/client.png" alt="Clients image">
+                                </div>
+                                <p class=" text-base leading-7">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                                <h4 class="text-base font-bold mt-10">Ilham Yuda</h4>
+                                <p class="text-base font-medium">Businessman</p>
+                                <div class="car-circels-img flex justify-end">
+                                    <img src="assets/images/circles.png" alt="circels image">
+                                </div>
+                            </div>
+                            <!-- Clients previous review  -->
+                            <div class="card-one relative z-10 opacity-40 p-10 rounded-lg bg-white">
+                                <div class="card-img absolute -left-6 -top-5 border-4 rounded-full border-white bg-white">
+                                    <img  src="assets/images/client.png" alt="Clients image">
+                                </div>
+                                <p class=" text-base leading-7">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                                <h4 class="text-base font-bold mt-10">Ilham Yuda</h4>
+                                <p class="text-base font-medium">Businessman</p>
+                                <div class="car-circels-img flex justify-end">
+                                    <img src="assets/images/circles.png" alt="circels image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- Meet Our Super Clients section end -->
     </main>
     <!-- Main section end -->
     <!-- Footer section start -->
