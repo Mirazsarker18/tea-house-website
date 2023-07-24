@@ -45,9 +45,9 @@
         cursor: pointer;
     }
     .btn-web-primary{
-        padding: 18px 30px;
+        padding: 15px 25px;
         outline: none;
-        font-size: 1.3rem;
+        font-size: 1rem;
         color: #fff;
         background: linear-gradient(270deg, #F00 0%, #FF8938 100%);
         border-radius: 10px;
@@ -58,7 +58,7 @@
 <!-- Style css end -->
 
 </head>
-<body>
+<body class="manrope-font">
     <!-- Header section start -->
     <header>
         <!-- menu section start -->
@@ -118,8 +118,8 @@
                     <div class="hero-content flex-col lg:flex-row-reverse">
                       <div class="banner-img-col">
                         <img src="assets/images/banner.png" alt="Banner image" class=" relative" />
-                        <div class="banner-bage-col flex items-center gap-3 p-5 w-60 bg-white drop-shadow-lg rounded-xl absolute bottom-14 right-[445px]">
-                            <div class="bage-icon-col rating">
+                        <div class="banner-bage-col flex items-center gap-3 p-5 lg:w-60 bg-white drop-shadow-lg rounded-xl absolute -mt-20 md:-mt-32 lg:-mt-32 md:right-[450px] lg:right-[445px]">
+                            <div class="bage-icon-col rating rating-md lg:rating-lg">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />      
                             </div>
                             <div class="bage-text-col">
@@ -143,7 +143,80 @@
     </header>
     <!-- Header section end -->
     <!-- Main section start -->
-    <main></main>
+    <main>
+        <!-- Our Featured Products start -->
+        <section class="py-20">
+            <div class="featured-container max-w-screen-xl mx-auto">
+                <div class="featured-container-text-row text-center">
+                <div class="featured-text-col space-y-5">
+                    <h2 class="text-5xl font-semibold">Our Featured Products</h2>
+                    <p class="text-sm font-medium w-3/5 mx-auto text-slate-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                </div>
+                </div>
+                <div class="featured-container-card-row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-8">
+                <div class="featured-card-col">
+                    <div class="card bg-slate-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                          <img src="assets/images/tea-1.png" alt="Featured Products image" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Milk Tea</h2>
+                          <p>Creamer could be replaced by fresh milk</p>
+                          <div class="card-actions">
+                            <button class="btn btn-web-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="featured-card-col">
+                    <div class="card bg-slate-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                          <img src="assets/images/tea-2.png" alt="Featured Products image" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Black Tea</h2>
+                          <p>Creamer could be replaced by fresh milk</p>
+                          <div class="card-actions">
+                            <button class="btn btn-web-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="featured-card-col">
+                    <div class="card bg-slate-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                          <img src="assets/images/tea-3.png" alt="Featured Products image" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Lemon Tea</h2>
+                          <p>Creamer could be replaced by fresh milk</p>
+                          <div class="card-actions">
+                            <button class="btn btn-web-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="featured-card-col">
+                    <div class="card bg-slate-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                          <img src="assets/images/tea-4.png" alt="Featured Products image" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Green Tea</h2>
+                          <p>Creamer could be replaced by fresh milk</p>
+                          <div class="card-actions">
+                            <button class="btn btn-web-primary">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                
+
+                </div>
+            </div>
+        </section>
+        <!-- Our Featured Products end -->
+    </main>
     <!-- Main section end -->
     <!-- Footer section start -->
     <footer>
